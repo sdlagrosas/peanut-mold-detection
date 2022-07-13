@@ -25,15 +25,19 @@ pmd\Scripts\activate.bat
 ```
 4. Run `INSTALL_PACKAGES.cmd` to install the packages:
 3. Run the following command to use the programs:
-Color Segmentation & Feature Extraction
+* Segmentation and Feature Extraction
 ```
-myprogram file1 file2
+py peanut_mold_detection\segment_extract.py <batch_type> <seg_type>
 ```
-Marker-based Watershed Segmentation & Feature Extraction
-```
-myprogram file1 file2
-```
-Building Neural Network Model
+batch_type and seg_type are optional commands
+batch_type allow you to label the samples as 
+'nc' non-contaminated (default)
+or 'c' contaminated
+seg_type allows yout to choose a segmentation method:
+'watershed' for marker-based watershed segmentation (default)
+or 'colseg; for color segmentation
+
+* Building Neural Network Model
 ```
 myprogram file1 file2
 ```
