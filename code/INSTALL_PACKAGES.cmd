@@ -24,6 +24,9 @@ py -m pip install tensorflow
 echo Installing Scikit-Learn...
 py -m pip install scikit-learn
 
+echo Installing Scikit-Image...
+py -m pip install scikit-image
+
 echo Verifying dependencies...
 py -m pip check
 

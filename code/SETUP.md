@@ -1,24 +1,29 @@
 # Development Set-up
 ## Prerequisites
-* Python 3
+* Python 3.8+
 * Jupyter Notebook
-* Tensorflow
-* OpenCV
-* Sklearn
 * Numpy
 * Matplotlib
 * Pandas
 * Seaborn
+* Tensorflow
+* OpenCV
+* Scikit-Learn
+* Scikit-Image
 * test files (file1, file2)
 * Desktop/Laptop Computer
 * Visual Studio Code
 ## Instructions
-1. Install `Python 3` from link
-2. Run the following command to install the packages:
+1. Install `Python 3.8` or later from [link](https://www.python.org/downloads/)
+2. Install `Visual Studio Code` from [link](https://code.visualstudio.com/download) and run the program
+3. Press `Ctrl+Shift+X` to open the extensions tab, and search and install the extension `Jupyter`
+3. Open a terminal and create a python virtual environment:
 ```
-interpreter install package_manager
-package_manager -i packages
+cd code
+py -m venv pmd
+pmd\Scripts\activate.bat
 ```
+4. Run `INSTALL_PACKAGES.cmd` to install the packages:
 3. Run the following command to use the programs:
 Color Segmentation & Feature Extraction
 ```
