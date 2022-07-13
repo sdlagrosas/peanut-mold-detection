@@ -1,0 +1,29 @@
+
+echo Installing pip...
+py -m ensurepip --upgrade
+py -m pip install --upgrade pip
+
+echo Installing NumPy...
+py -m pip install numpy
+
+echo Installing MatPlotLib...
+py -m pip install matplotlib
+
+echo Installing Pandas...
+py -m pip install pandas
+
+echo Installing Seaborn...
+py -m pip install seaborn
+
+echo Installing OpenCV...
+py -m pip install opencv-python
+
+echo Installing Tensorflow...
+py -m pip install tensorflow
+
+echo Installing Scikit-Learn...
+py -m pip install scikit-learn
+
+echo Verifying dependencies...
+py -m pip check
+
