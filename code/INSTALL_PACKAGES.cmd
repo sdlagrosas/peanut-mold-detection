@@ -1,7 +1,6 @@
 
 echo Installing pip...
 py -m ensurepip --upgrade
-py -m pip install --upgrade pip
 
 echo Installing NumPy...
 py -m pip install numpy
